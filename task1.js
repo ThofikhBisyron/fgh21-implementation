@@ -10,4 +10,4 @@ function cekPalindrom(kata) {
         return ('bukan palindrom')
     
 }
-console.log(cekPalindrom('malam'))
+console.log(cekPalindrom('kodok'))

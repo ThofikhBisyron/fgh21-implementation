@@ -34,4 +34,4 @@ function FazzFood(harga, voucher, jarak, pajak) {
     console.log("subtotal : " + subtotal);
   }
 
-  FazzFood(75000, "FAZZFOOD50", 5, true);
+  FazzFood(75000, "DITRAKTIR60", 5, true);

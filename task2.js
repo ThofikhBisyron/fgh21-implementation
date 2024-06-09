@@ -21,13 +21,7 @@ function reverseWords(kata){
                 }else{
                     awalkata = i + 1
                 }
-                // let awalkata = if (i === 0) {
-                //     i = i + 1
-                // }  
-                // i = 0 jawaban 0
-                // i = 1 jawaban 2
-                // i = 2 jawaban 3
-            
+                
             for ( let j = awalkata; j < akhirkata; j++){
                 hasil = hasil + kata[j]
             }

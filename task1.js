@@ -9,7 +9,7 @@ function cekPalindrom(kata){
         }
 
 }
-cekPalindrom('kodok')
+cekPalindrom('malam')
 // function cekPalindrom(kata) {
 //     let split = kata.split('')
 //     let reverse = split.reverse('')

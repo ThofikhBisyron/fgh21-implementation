@@ -1,3 +1,15 @@
+function cekPalindrom(kata){
+    let panjangkata = kata.length
+    let hasil = ''
+        for ( let i = panjangkata - 1; i >= 0; i-- ){
+            hasil = hasil + kata[i]
+        }
+        if (kata === hasil){
+            console.log('palindrom')
+        }
+
+}
+cekPalindrom('kodok')
 // function cekPalindrom(kata) {
 //     let split = kata.split('')
 //     let reverse = split.reverse('')
@@ -11,18 +23,3 @@
     
 // }
 // console.log(cekPalindrom('kodok'))
-
-function cekPalindrom(kata){
-    let panjangkata = kata.length
-    let hasil = ''
-        for ( let i = panjangkata - 1; i >= 0; i-- ){
-            hasil = hasil + kata[i]
-        }
-        if (kata === hasil){
-            return('Palindrom')
-        }else{
-            return('Bukan Palindrom')
-        }1
-
-}
-console.log(cekPalindrom('kodok'))
